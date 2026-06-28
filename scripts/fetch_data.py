@@ -3,10 +3,7 @@ import os
 import sys
 from datetime import datetime, timezone
 
-try:
-    import requests
-except ImportError:
-    requests = None
+import requests
 
 WMO_MAP = {
     0:  ('☀',    'Clear'),
