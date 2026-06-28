@@ -1,0 +1,24 @@
+{
+  "stock": {
+    "ticker": "WDAY",
+    "price": 0.0,
+    "change": 0.0,
+    "change_pct": 0.0,
+    "open": 0.0,
+    "prev_close": 0.0,
+    "updated": "2026-06-27T14:00:00Z"
+  },
+  "weather": {
+    "location": "Burnaby, BC",
+    "days": [
+      {"date": "2026-06-27", "day_name": "Fri", "icon": "⛅", "description": "Partly Cloudy", "high_c": 22, "low_c": 13},
+      {"date": "2026-06-28", "day_name": "Sat", "icon": "☀", "description": "Sunny", "high_c": 25, "low_c": 14},
+      {"date": "2026-06-29", "day_name": "Sun", "icon": "☁", "description": "Cloudy", "high_c": 19, "low_c": 12},
+      {"date": "2026-06-30", "day_name": "Mon", "icon": "🌧", "description": "Rain", "high_c": 16, "low_c": 11},
+      {"date": "2026-07-01", "day_name": "Tue", "icon": "🌧", "description": "Showers", "high_c": 17, "low_c": 12},
+      {"date": "2026-07-02", "day_name": "Wed", "icon": "⛅", "description": "Partly Cloudy", "high_c": 20, "low_c": 13},
+      {"date": "2026-07-03", "day_name": "Thu", "icon": "☀", "description": "Sunny", "high_c": 24, "low_c": 14}
+    ]
+  },
+  "generated_at": "2026-06-27T14:00:00Z"
+}
