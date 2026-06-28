@@ -1,7 +1,4 @@
-import sys
-import os
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'scripts'))
-from fetch_data import wmo_to_icon_desc, build_day_name, validate_data_schema
+from fetch_data import wmo_to_icon_desc, build_day_name, validate_data_schema  # type: ignore[import-untyped]
 
 
 def test_wmo_clear():
