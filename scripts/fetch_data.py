@@ -65,7 +65,7 @@ def fetch_stock():
     meta = resp.json()['chart']['result'][0]['meta']
     price = float(meta['regularMarketPrice'])
     prev_close = float(meta.get('previousClose') or meta.get('chartPreviousClose') or 0)
-    open_price = float(meta.get('regularMarketOpen', prev_close))
+    open_price = float(meta.get('regularMarketOpen') or prev_close)
     change = price - prev_close
     change_pct = (change / prev_close * 100) if prev_close else 0.0
     return {

@@ -52,7 +52,7 @@ def _make_valid_data():
         'weather': {
             'location': 'Burnaby, BC',
             'days': [
-                {'date': '2026-06-27', 'day_name': 'Fri', 'icon': '⛅',
+                {'date': '2026-06-27', 'day_name': 'Sat', 'icon': '⛅',
                  'description': 'Partly Cloudy', 'high_c': 22, 'low_c': 13},
                 {'date': '2026-06-28', 'day_name': 'Sat', 'icon': '☀',
                  'description': 'Sunny', 'high_c': 25, 'low_c': 14},
