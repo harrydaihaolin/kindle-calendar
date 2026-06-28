@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=800, initial-scale=1.0">
+<title>Kindle Dashboard</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: #fff;
+  color: #000;
+  font-family: Georgia, "Times New Roman", serif;
+  width: 800px;
+  overflow: hidden;
+}
+#top-bar {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  padding: 8px 16px;
+}
+#top-table { width: 100%; border-collapse: collapse; }
+#date-cell { font-size: 22px; font-weight: bold; letter-spacing: 1px; }
+#clock-cell {
+  text-align: right;
+  font-size: 36px;
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+#divider { height: 3px; background: #000; }
+#bottom-table { width: 100%; border-collapse: collapse; }
+#stock-td {
+  width: 220px;
+  vertical-align: top;
+  border-right: 3px solid #000;
+  padding: 16px 14px;
+  background: #f5f5f5;
+}
+.s-label {
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #555;
+  margin-bottom: 6px;
+}
+#s-ticker { font-size: 28px; font-weight: bold; font-family: "Courier New", monospace; }
+#s-price {
+  font-size: 42px;
+  font-weight: bold;
+  font-family: "Courier New", monospace;
+  line-height: 1.1;
+  margin-top: 4px;
+}
+#s-change { font-size: 18px; font-family: "Courier New", monospace; margin-top: 6px; }
+.s-row { margin-top: 8px; }
+.s-row-label { font-size: 11px; color: #555; }
+.s-row-val { font-size: 14px; font-family: "Courier New", monospace; }
+#s-updated {
+  font-size: 10px;
+  color: #888;
+  margin-top: 16px;
+  border-top: 1px solid #ccc;
+  padding-top: 8px;
+}
+#s-error { color: #cc0000; font-size: 12px; display: none; }
+#weather-td { vertical-align: top; padding: 12px 10px; }
+#w-title {
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #555;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #000;
+}
+#weather-days-table { width: 100%; table-layout: fixed; border-collapse: collapse; }
+.wd { text-align: center; vertical-align: top; padding: 6px 2px; border-right: 1px solid #ccc; }
+.wd:last-child { border-right: none; }
+.wd-name { font-size: 13px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; }
+.wd-date { font-size: 10px; color: #666; margin-bottom: 6px; }
+.wd-icon { font-size: 30px; display: block; margin: 4px 0; }
+.wd-desc { font-size: 10px; color: #444; margin-bottom: 6px; min-height: 28px; }
+.wd-hi { font-size: 18px; font-weight: bold; font-family: "Courier New", monospace; }
+.wd-lo { font-size: 13px; color: #666; font-family: "Courier New", monospace; }
+.wd-today { background: #000; color: #fff; border-radius: 4px; }
+.wd-today .wd-date,
+.wd-today .wd-desc,
+.wd-today .wd-lo { color: #ccc; }
+#w-location { font-size: 11px; color: #666; margin-top: 10px; text-align: right; padding-right: 4px; }
+#w-error { color: #cc0000; font-size: 12px; display: none; }
+</style>
+</head>
+<body>
+
+<div id="top-bar">
+  <table id="top-table"><tr>
+    <td id="date-cell">Loading...</td>
+    <td id="clock-cell">--:--:-- --</td>
+  </tr></table>
+</div>
+<div id="divider"></div>
+
+<table id="bottom-table"><tr>
+  <td id="stock-td">
+    <div class="s-label">Nasdaq: Stock</div>
+    <div id="s-ticker">WDAY</div>
+    <div id="s-price">--</div>
+    <div id="s-change">--</div>
+    <div class="s-row">
+      <div class="s-row-label">Open</div>
+      <div class="s-row-val" id="s-open">--</div>
+    </div>
+    <div class="s-row">
+      <div class="s-row-label">Prev Close</div>
+      <div class="s-row-val" id="s-prev">--</div>
+    </div>
+    <div id="s-updated">Loading...</div>
+    <div id="s-error"></div>
+  </td>
+  <td id="weather-td">
+    <div id="w-title">7-Day Forecast &#8212; Burnaby, BC</div>
+    <table id="weather-days-table"><tr id="weather-row"></tr></table>
+    <div id="w-location">&#128205; Burnaby, BC &nbsp;|&nbsp; Temps in &deg;C</div>
+    <div id="w-error"></div>
+  </td>
+</tr></table>
+
+<script>
+var DAY_NAMES = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+var MONTH_NAMES = ['January','February','March','April','May','June',
+  'July','August','September','October','November','December'];
+
+function pad(n) { return n < 10 ? '0' + n : '' + n; }
+
+function tick() {
+  var now = new Date();
+  var h = now.getHours();
+  var m = now.getMinutes();
+  var s = now.getSeconds();
+  var ampm = h >= 12 ? 'PM' : 'AM';
+  h = h % 12;
+  if (h === 0) { h = 12; }
+  document.getElementById('clock-cell').innerHTML =
+    pad(h) + ':' + pad(m) + ':' + pad(s) + ' ' + ampm;
+  if (s === 0 || document.getElementById('date-cell').innerHTML === 'Loading...') {
+    document.getElementById('date-cell').innerHTML =
+      DAY_NAMES[now.getDay()] + ', ' +
+      MONTH_NAMES[now.getMonth()] + ' ' +
+      now.getDate() + ', ' + now.getFullYear();
+  }
+}
+
+function sizeLayout() {
+  var h = window.innerHeight || 600;
+  var topBar = document.getElementById('top-bar');
+  var topH = topBar ? (topBar.offsetHeight + 3) : 73;
+  var ids = ['bottom-table', 'stock-td', 'weather-td'];
+  for (var i = 0; i < ids.length; i++) {
+    var el = document.getElementById(ids[i]);
+    if (el) { el.style.height = (h - topH) + 'px'; }
+  }
+}
+
+function renderStock(s) {
+  if (!s || typeof s.price !== 'number') {
+    document.getElementById('s-error').style.display = 'block';
+    document.getElementById('s-error').innerHTML = 'Data unavailable';
+    document.getElementById('s-updated').style.display = 'none';
+    return;
+  }
+  document.getElementById('s-price').innerHTML = '$' + s.price.toFixed(2);
+  var up = s.change >= 0;
+  var arrow = up ? '&#9650;' : '&#9660;';
+  var sign = up ? '+' : '';
+  var clr = up ? '#006600' : '#cc0000';
+  document.getElementById('s-change').innerHTML =
+    '<span style="color:' + clr + '">' + arrow + ' ' + sign +
+    s.change.toFixed(2) + ' (' + sign + s.change_pct.toFixed(2) + '%)</span>';
+  document.getElementById('s-open').innerHTML = '$' + s.open.toFixed(2);
+  document.getElementById('s-prev').innerHTML = '$' + s.prev_close.toFixed(2);
+  var upd = s.updated ? s.updated.replace('T', ' ').replace('Z', ' UTC') : '';
+  document.getElementById('s-updated').innerHTML = 'Updated: ' + upd;
+}
+
+function renderWeather(w) {
+  if (!w || !w.days || !w.days.length) {
+    document.getElementById('w-error').style.display = 'block';
+    document.getElementById('w-error').innerHTML = 'Weather data unavailable';
+    return;
+  }
+  var now = new Date();
+  var todayStr = now.getFullYear() + '-' + pad(now.getMonth() + 1) + '-' + pad(now.getDate());
+  var row = document.getElementById('weather-row');
+  row.innerHTML = '';
+  for (var i = 0; i < w.days.length; i++) {
+    var d = w.days[i];
+    var isToday = (d.date === todayStr);
+    var td = document.createElement('td');
+    td.className = 'wd' + (isToday ? ' wd-today' : '');
+    var parts = d.date.split('-');
+    var dispDate = parseInt(parts[1], 10) + '/' + parseInt(parts[2], 10);
+    td.innerHTML =
+      '<div class="wd-name">' + d.day_name + '</div>' +
+      '<div class="wd-date">' + dispDate + '</div>' +
+      '<span class="wd-icon">' + d.icon + '</span>' +
+      '<div class="wd-desc">' + d.description + '</div>' +
+      '<div class="wd-hi">' + d.high_c + '&deg;</div>' +
+      '<div class="wd-lo">' + d.low_c + '&deg;</div>';
+    row.appendChild(td);
+  }
+}
+
+function showDataError() {
+  var se = document.getElementById('s-error');
+  if (se) { se.style.display = 'block'; se.innerHTML = 'Data unavailable'; }
+  var we = document.getElementById('w-error');
+  if (we) { we.style.display = 'block'; we.innerHTML = 'Data unavailable'; }
+}
+
+function loadData() {
+  var xhr;
+  try {
+    xhr = window.XMLHttpRequest
+      ? new XMLHttpRequest()
+      : new ActiveXObject('Microsoft.XMLHTTP');
+    xhr.open('GET', 'data.json', true);
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState === 4) {
+        if (xhr.status === 200 || xhr.status === 0) {
+          try {
+            var data = JSON.parse(xhr.responseText);
+            renderStock(data.stock);
+            renderWeather(data.weather);
+          } catch(e) { showDataError(); }
+        } else { showDataError(); }
+      }
+    };
+    xhr.send(null);
+  } catch(e) { showDataError(); }
+}
+
+window.onload = function() {
+  sizeLayout();
+  tick();
+  setInterval(tick, 1000);
+  loadData();
+  setTimeout(function() { window.scrollTo(0, 1); }, 300);
+};
+
+window.onresize = sizeLayout;
+</script>
+</body>
+</html>
