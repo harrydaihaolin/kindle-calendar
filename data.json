@@ -1,46 +1,38 @@
 {
   "stock": {
     "ticker": "WDAY",
-    "price": 130.63,
-    "change": 8.21,
-    "change_pct": 6.71,
-    "open": 122.42,
-    "prev_close": 122.42,
-    "updated": "2026-07-01T16:13:21Z"
+    "price": 133.77,
+    "change": 3.5,
+    "change_pct": 2.69,
+    "open": 130.27,
+    "prev_close": 130.27,
+    "updated": "2026-07-02T15:58:15Z"
   },
   "weather": {
     "location": "Burnaby, BC",
     "days": [
       {
-        "date": "2026-07-01",
-        "day_name": "Wed",
-        "icon": "☁",
-        "description": "Overcast",
-        "high_c": 19,
-        "low_c": 13
-      },
-      {
         "date": "2026-07-02",
         "day_name": "Thu",
-        "icon": "🌦",
-        "description": "Heavy Drizzle",
-        "high_c": 18,
-        "low_c": 10
+        "icon": "🌧",
+        "description": "Rain",
+        "high_c": 17,
+        "low_c": 12
       },
       {
         "date": "2026-07-03",
         "day_name": "Fri",
         "icon": "🌦",
         "description": "Light Drizzle",
-        "high_c": 22,
-        "low_c": 12
+        "high_c": 18,
+        "low_c": 14
       },
       {
         "date": "2026-07-04",
         "day_name": "Sat",
         "icon": "☁",
         "description": "Overcast",
-        "high_c": 21,
+        "high_c": 22,
         "low_c": 12
       },
       {
@@ -56,18 +48,26 @@
         "day_name": "Mon",
         "icon": "☁",
         "description": "Overcast",
-        "high_c": 26,
-        "low_c": 11
+        "high_c": 25,
+        "low_c": 12
       },
       {
         "date": "2026-07-07",
         "day_name": "Tue",
         "icon": "☁",
         "description": "Overcast",
-        "high_c": 22,
+        "high_c": 16,
         "low_c": 12
+      },
+      {
+        "date": "2026-07-08",
+        "day_name": "Wed",
+        "icon": "🌦",
+        "description": "Light Drizzle",
+        "high_c": 20,
+        "low_c": 11
       }
     ]
   },
-  "generated_at": "2026-07-01T16:13:21Z"
+  "generated_at": "2026-07-02T15:58:16Z"
 }
