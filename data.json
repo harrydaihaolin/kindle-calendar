@@ -1,46 +1,38 @@
 {
   "stock": {
     "ticker": "WDAY",
-    "price": 138.23,
-    "change": -0.11,
-    "change_pct": -0.08,
+    "price": 138.95,
+    "change": 0.61,
+    "change_pct": 0.44,
     "open": 138.34,
     "prev_close": 138.34,
-    "updated": "2026-07-10T16:11:05Z"
+    "updated": "2026-07-11T14:43:05Z"
   },
   "weather": {
     "location": "Burnaby, BC",
     "days": [
       {
-        "date": "2026-07-10",
-        "day_name": "Fri",
-        "icon": "☁",
-        "description": "Overcast",
-        "high_c": 22,
-        "low_c": 15
-      },
-      {
         "date": "2026-07-11",
         "day_name": "Sat",
-        "icon": "🌧",
-        "description": "Light Rain",
-        "high_c": 19,
-        "low_c": 13
+        "icon": "🌦",
+        "description": "Drizzle",
+        "high_c": 21,
+        "low_c": 15
       },
       {
         "date": "2026-07-12",
         "day_name": "Sun",
         "icon": "🌦",
-        "description": "Light Drizzle",
-        "high_c": 22,
+        "description": "Heavy Drizzle",
+        "high_c": 20,
         "low_c": 11
       },
       {
         "date": "2026-07-13",
         "day_name": "Mon",
-        "icon": "☁",
-        "description": "Overcast",
-        "high_c": 26,
+        "icon": "🌤",
+        "description": "Mainly Clear",
+        "high_c": 25,
         "low_c": 10
       },
       {
@@ -48,8 +40,8 @@
         "day_name": "Tue",
         "icon": "☁",
         "description": "Overcast",
-        "high_c": 26,
-        "low_c": 12
+        "high_c": 25,
+        "low_c": 11
       },
       {
         "date": "2026-07-15",
@@ -62,12 +54,20 @@
       {
         "date": "2026-07-16",
         "day_name": "Thu",
+        "icon": "🌦",
+        "description": "Light Drizzle",
+        "high_c": 17,
+        "low_c": 13
+      },
+      {
+        "date": "2026-07-17",
+        "day_name": "Fri",
         "icon": "☀",
         "description": "Clear",
-        "high_c": 26,
+        "high_c": 27,
         "low_c": 11
       }
     ]
   },
-  "generated_at": "2026-07-10T16:11:05Z"
+  "generated_at": "2026-07-11T14:43:06Z"
 }
