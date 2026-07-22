@@ -1,39 +1,31 @@
 {
   "stock": {
     "ticker": "WDAY",
-    "price": 142.64,
-    "change": -4.58,
-    "change_pct": -3.11,
-    "open": 147.22,
-    "prev_close": 147.22,
-    "updated": "2026-07-21T15:27:25Z"
+    "price": 135.64,
+    "change": -5.53,
+    "change_pct": -3.92,
+    "open": 141.17,
+    "prev_close": 141.17,
+    "updated": "2026-07-22T15:24:47Z"
   },
   "weather": {
     "location": "Burnaby, BC",
     "days": [
       {
-        "date": "2026-07-21",
-        "day_name": "Tue",
-        "icon": "☁",
-        "description": "Overcast",
-        "high_c": 32,
-        "low_c": 17
-      },
-      {
         "date": "2026-07-22",
         "day_name": "Wed",
         "icon": "☁",
         "description": "Overcast",
-        "high_c": 34,
-        "low_c": 18
+        "high_c": 33,
+        "low_c": 17
       },
       {
         "date": "2026-07-23",
         "day_name": "Thu",
-        "icon": "☁",
-        "description": "Overcast",
-        "high_c": 25,
-        "low_c": 16
+        "icon": "🌦",
+        "description": "Drizzle",
+        "high_c": 28,
+        "low_c": 20
       },
       {
         "date": "2026-07-24",
@@ -41,33 +33,41 @@
         "icon": "⛅",
         "description": "Partly Cloudy",
         "high_c": 26,
-        "low_c": 15
+        "low_c": 16
       },
       {
         "date": "2026-07-25",
         "day_name": "Sat",
-        "icon": "☁",
-        "description": "Overcast",
-        "high_c": 24,
-        "low_c": 13
+        "icon": "🌦",
+        "description": "Light Drizzle",
+        "high_c": 21,
+        "low_c": 14
       },
       {
         "date": "2026-07-26",
         "day_name": "Sun",
-        "icon": "☁",
-        "description": "Overcast",
-        "high_c": 23,
+        "icon": "🌧",
+        "description": "Rain",
+        "high_c": 20,
         "low_c": 15
       },
       {
         "date": "2026-07-27",
         "day_name": "Mon",
         "icon": "🌦",
-        "description": "Light Drizzle",
-        "high_c": 20,
+        "description": "Drizzle",
+        "high_c": 24,
+        "low_c": 14
+      },
+      {
+        "date": "2026-07-28",
+        "day_name": "Tue",
+        "icon": "☁",
+        "description": "Overcast",
+        "high_c": 24,
         "low_c": 14
       }
     ]
   },
-  "generated_at": "2026-07-21T15:27:26Z"
+  "generated_at": "2026-07-22T15:24:48Z"
 }
