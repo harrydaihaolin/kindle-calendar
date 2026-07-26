@@ -6,68 +6,68 @@
     "change_pct": 5.84,
     "open": 127.87,
     "prev_close": 127.87,
-    "updated": "2026-07-25T14:53:57Z"
+    "updated": "2026-07-26T14:55:12Z"
   },
   "weather": {
     "location": "Burnaby, BC",
     "days": [
       {
-        "date": "2026-07-25",
-        "day_name": "Sat",
-        "icon": "🌦",
-        "description": "Light Drizzle",
-        "high_c": 20,
-        "low_c": 16
-      },
-      {
         "date": "2026-07-26",
         "day_name": "Sun",
         "icon": "🌧",
-        "description": "Rain",
+        "description": "Light Rain",
         "high_c": 16,
         "low_c": 15
       },
       {
         "date": "2026-07-27",
         "day_name": "Mon",
-        "icon": "☁",
-        "description": "Overcast",
-        "high_c": 25,
-        "low_c": 14
+        "icon": "🌦",
+        "description": "Heavy Drizzle",
+        "high_c": 20,
+        "low_c": 15
       },
       {
         "date": "2026-07-28",
         "day_name": "Tue",
         "icon": "🌦",
         "description": "Drizzle",
-        "high_c": 21,
-        "low_c": 13
+        "high_c": 19,
+        "low_c": 14
       },
       {
         "date": "2026-07-29",
         "day_name": "Wed",
         "icon": "☁",
         "description": "Overcast",
-        "high_c": 24,
-        "low_c": 13
+        "high_c": 23,
+        "low_c": 12
       },
       {
         "date": "2026-07-30",
         "day_name": "Thu",
-        "icon": "⛅",
-        "description": "Partly Cloudy",
+        "icon": "☁",
+        "description": "Overcast",
         "high_c": 26,
-        "low_c": 12
+        "low_c": 11
       },
       {
         "date": "2026-07-31",
         "day_name": "Fri",
         "icon": "⛅",
         "description": "Partly Cloudy",
-        "high_c": 27,
+        "high_c": 25,
+        "low_c": 12
+      },
+      {
+        "date": "2026-08-01",
+        "day_name": "Sat",
+        "icon": "☁",
+        "description": "Overcast",
+        "high_c": 23,
         "low_c": 13
       }
     ]
   },
-  "generated_at": "2026-07-25T14:53:57Z"
+  "generated_at": "2026-07-26T14:55:13Z"
 }
