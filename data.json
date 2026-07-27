@@ -1,37 +1,29 @@
 {
   "stock": {
     "ticker": "WDAY",
-    "price": 135.34,
-    "change": 7.47,
-    "change_pct": 5.84,
-    "open": 127.87,
-    "prev_close": 127.87,
-    "updated": "2026-07-26T14:55:12Z"
+    "price": 147.52,
+    "change": 12.18,
+    "change_pct": 9.0,
+    "open": 135.34,
+    "prev_close": 135.34,
+    "updated": "2026-07-27T16:05:21Z"
   },
   "weather": {
     "location": "Burnaby, BC",
     "days": [
       {
-        "date": "2026-07-26",
-        "day_name": "Sun",
-        "icon": "🌧",
-        "description": "Light Rain",
-        "high_c": 16,
-        "low_c": 15
-      },
-      {
         "date": "2026-07-27",
         "day_name": "Mon",
         "icon": "🌦",
-        "description": "Heavy Drizzle",
-        "high_c": 20,
-        "low_c": 15
+        "description": "Light Drizzle",
+        "high_c": 21,
+        "low_c": 14
       },
       {
         "date": "2026-07-28",
         "day_name": "Tue",
         "icon": "🌦",
-        "description": "Drizzle",
+        "description": "Light Drizzle",
         "high_c": 19,
         "low_c": 14
       },
@@ -41,14 +33,14 @@
         "icon": "☁",
         "description": "Overcast",
         "high_c": 23,
-        "low_c": 12
+        "low_c": 13
       },
       {
         "date": "2026-07-30",
         "day_name": "Thu",
         "icon": "☁",
         "description": "Overcast",
-        "high_c": 26,
+        "high_c": 23,
         "low_c": 11
       },
       {
@@ -56,18 +48,26 @@
         "day_name": "Fri",
         "icon": "⛅",
         "description": "Partly Cloudy",
-        "high_c": 25,
+        "high_c": 27,
         "low_c": 12
       },
       {
         "date": "2026-08-01",
         "day_name": "Sat",
-        "icon": "☁",
-        "description": "Overcast",
-        "high_c": 23,
+        "icon": "🌦",
+        "description": "Light Drizzle",
+        "high_c": 24,
         "low_c": 13
+      },
+      {
+        "date": "2026-08-02",
+        "day_name": "Sun",
+        "icon": "🌦",
+        "description": "Light Drizzle",
+        "high_c": 21,
+        "low_c": 10
       }
     ]
   },
-  "generated_at": "2026-07-26T14:55:13Z"
+  "generated_at": "2026-07-27T16:05:22Z"
 }
