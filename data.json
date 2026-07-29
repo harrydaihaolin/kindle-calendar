@@ -1,54 +1,46 @@
 {
   "stock": {
     "ticker": "WDAY",
-    "price": 157.48,
-    "change": 9.94,
-    "change_pct": 6.74,
-    "open": 147.54,
-    "prev_close": 147.54,
-    "updated": "2026-07-28T15:56:50Z"
+    "price": 167.8,
+    "change": 8.11,
+    "change_pct": 5.08,
+    "open": 159.69,
+    "prev_close": 159.69,
+    "updated": "2026-07-29T15:43:02Z"
   },
   "weather": {
     "location": "Burnaby, BC",
     "days": [
       {
-        "date": "2026-07-28",
-        "day_name": "Tue",
-        "icon": "🌧",
-        "description": "Rain",
-        "high_c": 21,
-        "low_c": 15
-      },
-      {
         "date": "2026-07-29",
         "day_name": "Wed",
         "icon": "☁",
         "description": "Overcast",
-        "high_c": 22,
+        "high_c": 23,
         "low_c": 11
       },
       {
         "date": "2026-07-30",
         "day_name": "Thu",
-        "icon": "🌤",
-        "description": "Mainly Clear",
-        "high_c": 24,
+        "icon": "☁",
+        "description": "Overcast",
+        "high_c": 23,
         "low_c": 11
       },
       {
         "date": "2026-07-31",
         "day_name": "Fri",
-        "icon": "⛅",
-        "description": "Partly Cloudy",
-        "high_c": 26,
+        "icon": "☁",
+        "description": "Overcast",
+        "high_c": 27,
         "low_c": 12
       },
       {
         "date": "2026-08-01",
         "day_name": "Sat",
         "icon": "🌦",
-        "description": "Heavy Drizzle",
-        "high_c": 22,
+        "description": "Drizzle",
+        "high_c": 23,
         "low_c": 11
       },
       {
@@ -56,18 +48,26 @@
         "day_name": "Sun",
         "icon": "🌦",
         "description": "Light Drizzle",
-        "high_c": 20,
+        "high_c": 22,
         "low_c": 11
       },
       {
         "date": "2026-08-03",
         "day_name": "Mon",
+        "icon": "⛅",
+        "description": "Partly Cloudy",
+        "high_c": 25,
+        "low_c": 11
+      },
+      {
+        "date": "2026-08-04",
+        "day_name": "Tue",
         "icon": "☀",
         "description": "Clear",
-        "high_c": 25,
-        "low_c": 10
+        "high_c": 30,
+        "low_c": 13
       }
     ]
   },
-  "generated_at": "2026-07-28T15:56:51Z"
+  "generated_at": "2026-07-29T15:43:02Z"
 }
