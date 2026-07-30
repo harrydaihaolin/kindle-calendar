@@ -1,31 +1,23 @@
 {
   "stock": {
     "ticker": "WDAY",
-    "price": 167.8,
-    "change": 8.11,
-    "change_pct": 5.08,
-    "open": 159.69,
-    "prev_close": 159.69,
-    "updated": "2026-07-29T15:43:02Z"
+    "price": 154.31,
+    "change": -13.69,
+    "change_pct": -8.15,
+    "open": 168.01,
+    "prev_close": 168.01,
+    "updated": "2026-07-30T15:44:40Z"
   },
   "weather": {
     "location": "Burnaby, BC",
     "days": [
-      {
-        "date": "2026-07-29",
-        "day_name": "Wed",
-        "icon": "☁",
-        "description": "Overcast",
-        "high_c": 23,
-        "low_c": 11
-      },
       {
         "date": "2026-07-30",
         "day_name": "Thu",
         "icon": "☁",
         "description": "Overcast",
         "high_c": 23,
-        "low_c": 11
+        "low_c": 12
       },
       {
         "date": "2026-07-31",
@@ -33,14 +25,14 @@
         "icon": "☁",
         "description": "Overcast",
         "high_c": 27,
-        "low_c": 12
+        "low_c": 13
       },
       {
         "date": "2026-08-01",
         "day_name": "Sat",
-        "icon": "🌦",
-        "description": "Drizzle",
-        "high_c": 23,
+        "icon": "🌧",
+        "description": "Showers",
+        "high_c": 18,
         "low_c": 11
       },
       {
@@ -48,26 +40,34 @@
         "day_name": "Sun",
         "icon": "🌦",
         "description": "Light Drizzle",
-        "high_c": 22,
-        "low_c": 11
+        "high_c": 21,
+        "low_c": 10
       },
       {
         "date": "2026-08-03",
         "day_name": "Mon",
-        "icon": "⛅",
-        "description": "Partly Cloudy",
+        "icon": "☁",
+        "description": "Overcast",
         "high_c": 25,
         "low_c": 11
       },
       {
         "date": "2026-08-04",
         "day_name": "Tue",
+        "icon": "☁",
+        "description": "Overcast",
+        "high_c": 30,
+        "low_c": 14
+      },
+      {
+        "date": "2026-08-05",
+        "day_name": "Wed",
         "icon": "☀",
         "description": "Clear",
         "high_c": 30,
-        "low_c": 13
+        "low_c": 14
       }
     ]
   },
-  "generated_at": "2026-07-29T15:43:02Z"
+  "generated_at": "2026-07-30T15:44:41Z"
 }
