@@ -1,45 +1,37 @@
 {
   "stock": {
     "ticker": "WDAY",
-    "price": 158.06,
-    "change": -0.05,
-    "change_pct": -0.03,
+    "price": 160.34,
+    "change": 2.23,
+    "change_pct": 1.41,
     "open": 158.11,
     "prev_close": 158.11,
-    "updated": "2026-07-31T15:51:23Z"
+    "updated": "2026-08-01T14:50:16Z"
   },
   "weather": {
     "location": "Burnaby, BC",
     "days": [
       {
-        "date": "2026-07-31",
-        "day_name": "Fri",
-        "icon": "☀",
-        "description": "Clear",
-        "high_c": 27,
-        "low_c": 12
-      },
-      {
         "date": "2026-08-01",
         "day_name": "Sat",
         "icon": "🌧",
         "description": "Rain",
-        "high_c": 19,
-        "low_c": 13
+        "high_c": 20,
+        "low_c": 14
       },
       {
         "date": "2026-08-02",
         "day_name": "Sun",
-        "icon": "🌦",
-        "description": "Light Drizzle",
-        "high_c": 21,
-        "low_c": 10
+        "icon": "☁",
+        "description": "Overcast",
+        "high_c": 20,
+        "low_c": 12
       },
       {
         "date": "2026-08-03",
         "day_name": "Mon",
-        "icon": "☁",
-        "description": "Overcast",
+        "icon": "⛅",
+        "description": "Partly Cloudy",
         "high_c": 25,
         "low_c": 11
       },
@@ -48,7 +40,7 @@
         "day_name": "Tue",
         "icon": "☀",
         "description": "Clear",
-        "high_c": 30,
+        "high_c": 29,
         "low_c": 13
       },
       {
@@ -56,18 +48,26 @@
         "day_name": "Wed",
         "icon": "☀",
         "description": "Clear",
-        "high_c": 32,
-        "low_c": 16
+        "high_c": 30,
+        "low_c": 15
       },
       {
         "date": "2026-08-06",
         "day_name": "Thu",
-        "icon": "⛅",
-        "description": "Partly Cloudy",
-        "high_c": 33,
-        "low_c": 17
+        "icon": "☀",
+        "description": "Clear",
+        "high_c": 29,
+        "low_c": 14
+      },
+      {
+        "date": "2026-08-07",
+        "day_name": "Fri",
+        "icon": "☁",
+        "description": "Overcast",
+        "high_c": 29,
+        "low_c": 15
       }
     ]
   },
-  "generated_at": "2026-07-31T15:51:23Z"
+  "generated_at": "2026-08-01T14:50:17Z"
 }
