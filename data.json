@@ -1,61 +1,53 @@
 {
   "stock": {
     "ticker": "WDAY",
-    "price": 194.46,
-    "change": -4.22,
-    "change_pct": -2.13,
-    "open": 198.68,
-    "prev_close": 198.68,
-    "updated": "2026-08-17T14:14:57Z"
+    "price": 194.06,
+    "change": 2.88,
+    "change_pct": 1.5,
+    "open": 191.18,
+    "prev_close": 191.18,
+    "updated": "2026-08-18T14:20:00Z"
   },
   "weather": {
     "location": "Burnaby, BC",
     "days": [
-      {
-        "date": "2026-08-17",
-        "day_name": "Mon",
-        "icon": "☁",
-        "description": "Overcast",
-        "high_c": 25,
-        "low_c": 12
-      },
       {
         "date": "2026-08-18",
         "day_name": "Tue",
         "icon": "☁",
         "description": "Overcast",
         "high_c": 26,
-        "low_c": 16
+        "low_c": 14
       },
       {
         "date": "2026-08-19",
         "day_name": "Wed",
         "icon": "☁",
         "description": "Overcast",
-        "high_c": 25,
-        "low_c": 13
+        "high_c": 26,
+        "low_c": 14
       },
       {
         "date": "2026-08-20",
         "day_name": "Thu",
         "icon": "☁",
         "description": "Overcast",
-        "high_c": 27,
+        "high_c": 28,
         "low_c": 14
       },
       {
         "date": "2026-08-21",
         "day_name": "Fri",
-        "icon": "🌦",
-        "description": "Light Drizzle",
-        "high_c": 28,
+        "icon": "☁",
+        "description": "Overcast",
+        "high_c": 31,
         "low_c": 15
       },
       {
         "date": "2026-08-22",
         "day_name": "Sat",
-        "icon": "☁",
-        "description": "Overcast",
+        "icon": "🌦",
+        "description": "Drizzle",
         "high_c": 19,
         "low_c": 14
       },
@@ -64,10 +56,18 @@
         "day_name": "Sun",
         "icon": "☁",
         "description": "Overcast",
-        "high_c": 25,
+        "high_c": 26,
         "low_c": 13
+      },
+      {
+        "date": "2026-08-24",
+        "day_name": "Mon",
+        "icon": "☁",
+        "description": "Overcast",
+        "high_c": 28,
+        "low_c": 14
       }
     ]
   },
-  "generated_at": "2026-08-17T14:14:58Z"
+  "generated_at": "2026-08-18T14:20:01Z"
 }
