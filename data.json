@@ -6,68 +6,68 @@
     "change_pct": 5.76,
     "open": 193.57,
     "prev_close": 193.57,
-    "updated": "2026-08-28T23:14:35Z"
+    "updated": "2026-08-29T17:25:29Z"
   },
   "weather": {
     "location": "Burnaby, BC",
     "days": [
-      {
-        "date": "2026-08-28",
-        "day_name": "Fri",
-        "icon": "☁",
-        "description": "Overcast",
-        "high_c": 22,
-        "low_c": 12
-      },
       {
         "date": "2026-08-29",
         "day_name": "Sat",
         "icon": "☁",
         "description": "Overcast",
         "high_c": 20,
-        "low_c": 12
+        "low_c": 14
       },
       {
         "date": "2026-08-30",
         "day_name": "Sun",
         "icon": "☁",
         "description": "Overcast",
-        "high_c": 16,
-        "low_c": 13
+        "high_c": 17,
+        "low_c": 12
       },
       {
         "date": "2026-08-31",
         "day_name": "Mon",
         "icon": "☁",
         "description": "Overcast",
-        "high_c": 22,
+        "high_c": 23,
         "low_c": 10
       },
       {
         "date": "2026-09-01",
         "day_name": "Tue",
-        "icon": "🌧",
-        "description": "Showers",
-        "high_c": 17,
-        "low_c": 11
+        "icon": "🌦",
+        "description": "Light Drizzle",
+        "high_c": 23,
+        "low_c": 12
       },
       {
         "date": "2026-09-02",
         "day_name": "Wed",
         "icon": "🌧",
         "description": "Showers",
-        "high_c": 14,
-        "low_c": 11
+        "high_c": 15,
+        "low_c": 12
       },
       {
         "date": "2026-09-03",
         "day_name": "Thu",
-        "icon": "🌦",
-        "description": "Drizzle",
-        "high_c": 17,
+        "icon": "🌧",
+        "description": "Showers",
+        "high_c": 13,
         "low_c": 10
+      },
+      {
+        "date": "2026-09-04",
+        "day_name": "Fri",
+        "icon": "☁",
+        "description": "Overcast",
+        "high_c": 20,
+        "low_c": 8
       }
     ]
   },
-  "generated_at": "2026-08-28T23:14:36Z"
+  "generated_at": "2026-08-29T17:25:29Z"
 }
