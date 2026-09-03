@@ -1,73 +1,73 @@
 {
   "stock": {
     "ticker": "WDAY",
-    "price": 198.7,
-    "change": 0.32,
-    "change_pct": 0.16,
-    "open": 198.38,
-    "prev_close": 198.38,
-    "updated": "2026-09-02T17:27:55Z"
+    "price": 207.19,
+    "change": 6.32,
+    "change_pct": 3.15,
+    "open": 200.87,
+    "prev_close": 200.87,
+    "updated": "2026-09-03T17:20:04Z"
   },
   "weather": {
     "location": "Burnaby, BC",
     "days": [
-      {
-        "date": "2026-09-02",
-        "day_name": "Wed",
-        "icon": "🌦",
-        "description": "Drizzle",
-        "high_c": 20,
-        "low_c": 13
-      },
       {
         "date": "2026-09-03",
         "day_name": "Thu",
         "icon": "☁",
         "description": "Overcast",
         "high_c": 18,
-        "low_c": 11
+        "low_c": 13
       },
       {
         "date": "2026-09-04",
         "day_name": "Fri",
-        "icon": "🌦",
-        "description": "Drizzle",
-        "high_c": 19,
+        "icon": "☁",
+        "description": "Overcast",
+        "high_c": 20,
         "low_c": 10
       },
       {
         "date": "2026-09-05",
         "day_name": "Sat",
-        "icon": "🌧",
-        "description": "Light Rain",
+        "icon": "🌦",
+        "description": "Heavy Drizzle",
         "high_c": 15,
-        "low_c": 10
+        "low_c": 12
       },
       {
         "date": "2026-09-06",
         "day_name": "Sun",
-        "icon": "☀",
-        "description": "Clear",
-        "high_c": 23,
-        "low_c": 10
+        "icon": "☁",
+        "description": "Overcast",
+        "high_c": 22,
+        "low_c": 11
       },
       {
         "date": "2026-09-07",
         "day_name": "Mon",
         "icon": "☁",
         "description": "Overcast",
-        "high_c": 23,
-        "low_c": 11
+        "high_c": 22,
+        "low_c": 10
       },
       {
         "date": "2026-09-08",
         "day_name": "Tue",
         "icon": "☁",
         "description": "Overcast",
-        "high_c": 22,
+        "high_c": 23,
+        "low_c": 11
+      },
+      {
+        "date": "2026-09-09",
+        "day_name": "Wed",
+        "icon": "☀",
+        "description": "Clear",
+        "high_c": 26,
         "low_c": 13
       }
     ]
   },
-  "generated_at": "2026-09-02T17:27:55Z"
+  "generated_at": "2026-09-03T17:20:05Z"
 }
