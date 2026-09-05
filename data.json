@@ -1,47 +1,39 @@
 {
   "stock": {
     "ticker": "WDAY",
-    "price": 198.48,
-    "change": -8.44,
-    "change_pct": -4.08,
+    "price": 195.79,
+    "change": -11.13,
+    "change_pct": -5.38,
     "open": 206.92,
     "prev_close": 206.92,
-    "updated": "2026-09-04T17:12:01Z"
+    "updated": "2026-09-05T16:19:25Z"
   },
   "weather": {
     "location": "Burnaby, BC",
     "days": [
       {
-        "date": "2026-09-04",
-        "day_name": "Fri",
-        "icon": "☁",
-        "description": "Overcast",
-        "high_c": 19,
-        "low_c": 10
-      },
-      {
         "date": "2026-09-05",
         "day_name": "Sat",
-        "icon": "🌧",
-        "description": "Light Rain",
-        "high_c": 17,
+        "icon": "☁",
+        "description": "Overcast",
+        "high_c": 21,
         "low_c": 12
       },
       {
         "date": "2026-09-06",
         "day_name": "Sun",
-        "icon": "☀",
-        "description": "Clear",
-        "high_c": 23,
-        "low_c": 11
+        "icon": "☁",
+        "description": "Overcast",
+        "high_c": 22,
+        "low_c": 12
       },
       {
         "date": "2026-09-07",
         "day_name": "Mon",
         "icon": "☁",
         "description": "Overcast",
-        "high_c": 21,
-        "low_c": 10
+        "high_c": 20,
+        "low_c": 11
       },
       {
         "date": "2026-09-08",
@@ -49,25 +41,33 @@
         "icon": "☁",
         "description": "Overcast",
         "high_c": 22,
-        "low_c": 12
+        "low_c": 11
       },
       {
         "date": "2026-09-09",
         "day_name": "Wed",
         "icon": "☁",
         "description": "Overcast",
-        "high_c": 27,
-        "low_c": 14
+        "high_c": 25,
+        "low_c": 12
       },
       {
         "date": "2026-09-10",
         "day_name": "Thu",
+        "icon": "🌦",
+        "description": "Light Drizzle",
+        "high_c": 21,
+        "low_c": 11
+      },
+      {
+        "date": "2026-09-11",
+        "day_name": "Fri",
         "icon": "☁",
         "description": "Overcast",
-        "high_c": 27,
-        "low_c": 14
+        "high_c": 19,
+        "low_c": 10
       }
     ]
   },
-  "generated_at": "2026-09-04T17:12:02Z"
+  "generated_at": "2026-09-05T16:19:25Z"
 }
