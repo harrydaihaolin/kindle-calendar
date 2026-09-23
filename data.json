@@ -1,39 +1,31 @@
 {
   "stock": {
     "ticker": "WDAY",
-    "price": 190.4,
-    "change": -1.52,
-    "change_pct": -0.79,
-    "open": 191.92,
-    "prev_close": 191.92,
-    "updated": "2026-09-22T17:47:15Z"
+    "price": 191.61,
+    "change": 3.38,
+    "change_pct": 1.8,
+    "open": 188.23,
+    "prev_close": 188.23,
+    "updated": "2026-09-23T18:00:40Z"
   },
   "weather": {
     "location": "Burnaby, BC",
     "days": [
       {
-        "date": "2026-09-22",
-        "day_name": "Tue",
-        "icon": "☁",
-        "description": "Overcast",
-        "high_c": 20,
-        "low_c": 10
-      },
-      {
         "date": "2026-09-23",
         "day_name": "Wed",
         "icon": "🌦",
-        "description": "Drizzle",
+        "description": "Light Drizzle",
         "high_c": 18,
-        "low_c": 10
+        "low_c": 11
       },
       {
         "date": "2026-09-24",
         "day_name": "Thu",
         "icon": "🌧",
-        "description": "Showers",
-        "high_c": 18,
-        "low_c": 10
+        "description": "Light Rain",
+        "high_c": 17,
+        "low_c": 9
       },
       {
         "date": "2026-09-25",
@@ -41,14 +33,14 @@
         "icon": "🌧",
         "description": "Light Rain",
         "high_c": 16,
-        "low_c": 8
+        "low_c": 9
       },
       {
         "date": "2026-09-26",
         "day_name": "Sat",
         "icon": "🌦",
-        "description": "Light Drizzle",
-        "high_c": 17,
+        "description": "Drizzle",
+        "high_c": 14,
         "low_c": 7
       },
       {
@@ -56,18 +48,26 @@
         "day_name": "Sun",
         "icon": "☁",
         "description": "Overcast",
-        "high_c": 19,
-        "low_c": 9
+        "high_c": 17,
+        "low_c": 6
       },
       {
         "date": "2026-09-28",
         "day_name": "Mon",
-        "icon": "☁",
-        "description": "Overcast",
+        "icon": "🌦",
+        "description": "Light Drizzle",
         "high_c": 17,
-        "low_c": 8
+        "low_c": 7
+      },
+      {
+        "date": "2026-09-29",
+        "day_name": "Tue",
+        "icon": "🌦",
+        "description": "Drizzle",
+        "high_c": 13,
+        "low_c": 10
       }
     ]
   },
-  "generated_at": "2026-09-22T17:47:15Z"
+  "generated_at": "2026-09-23T18:00:41Z"
 }
