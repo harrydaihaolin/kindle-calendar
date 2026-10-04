@@ -6,41 +6,33 @@
     "change_pct": -0.33,
     "open": 186.75,
     "prev_close": 186.75,
-    "updated": "2026-10-03T17:39:37Z"
+    "updated": "2026-10-04T17:52:57Z"
   },
   "weather": {
     "location": "Burnaby, BC",
     "days": [
       {
-        "date": "2026-10-03",
-        "day_name": "Sat",
-        "icon": "☁",
-        "description": "Overcast",
-        "high_c": 18,
-        "low_c": 12
-      },
-      {
         "date": "2026-10-04",
         "day_name": "Sun",
         "icon": "☁",
         "description": "Overcast",
-        "high_c": 22,
-        "low_c": 12
+        "high_c": 19,
+        "low_c": 11
       },
       {
         "date": "2026-10-05",
         "day_name": "Mon",
         "icon": "☁",
         "description": "Overcast",
-        "high_c": 20,
-        "low_c": 11
+        "high_c": 18,
+        "low_c": 10
       },
       {
         "date": "2026-10-06",
         "day_name": "Tue",
-        "icon": "☁",
-        "description": "Overcast",
-        "high_c": 19,
+        "icon": "🌫",
+        "description": "Fog",
+        "high_c": 18,
         "low_c": 10
       },
       {
@@ -56,18 +48,26 @@
         "day_name": "Thu",
         "icon": "☁",
         "description": "Overcast",
-        "high_c": 19,
+        "high_c": 21,
         "low_c": 11
       },
       {
         "date": "2026-10-09",
         "day_name": "Fri",
-        "icon": "🌦",
-        "description": "Heavy Drizzle",
-        "high_c": 14,
-        "low_c": 9
+        "icon": "☁",
+        "description": "Overcast",
+        "high_c": 18,
+        "low_c": 10
+      },
+      {
+        "date": "2026-10-10",
+        "day_name": "Sat",
+        "icon": "☁",
+        "description": "Overcast",
+        "high_c": 17,
+        "low_c": 10
       }
     ]
   },
-  "generated_at": "2026-10-03T17:39:37Z"
+  "generated_at": "2026-10-04T17:52:57Z"
 }
