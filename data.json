@@ -1,73 +1,73 @@
 {
   "stock": {
     "ticker": "WDAY",
-    "price": 187.38,
-    "change": 3.12,
-    "change_pct": 1.69,
-    "open": 184.26,
-    "prev_close": 184.26,
-    "updated": "2026-10-08T19:32:28Z"
+    "price": 186.59,
+    "change": -1.22,
+    "change_pct": -0.65,
+    "open": 187.81,
+    "prev_close": 187.81,
+    "updated": "2026-10-09T19:06:47Z"
   },
   "weather": {
     "location": "Burnaby, BC",
     "days": [
       {
-        "date": "2026-10-08",
-        "day_name": "Thu",
-        "icon": "🌫",
-        "description": "Fog",
-        "high_c": 16,
-        "low_c": 9
-      },
-      {
         "date": "2026-10-09",
         "day_name": "Fri",
         "icon": "🌧",
-        "description": "Light Rain",
+        "description": "Rain",
         "high_c": 13,
-        "low_c": 8
+        "low_c": 9
       },
       {
         "date": "2026-10-10",
         "day_name": "Sat",
-        "icon": "🌦",
-        "description": "Light Drizzle",
-        "high_c": 15,
-        "low_c": 6
+        "icon": "☁",
+        "description": "Overcast",
+        "high_c": 14,
+        "low_c": 7
       },
       {
         "date": "2026-10-11",
         "day_name": "Sun",
         "icon": "☀",
         "description": "Clear",
-        "high_c": 15,
-        "low_c": 5
+        "high_c": 16,
+        "low_c": 6
       },
       {
         "date": "2026-10-12",
         "day_name": "Mon",
         "icon": "☁",
         "description": "Overcast",
-        "high_c": 15,
+        "high_c": 16,
         "low_c": 5
       },
       {
         "date": "2026-10-13",
         "day_name": "Tue",
-        "icon": "🌧",
-        "description": "Light Rain",
-        "high_c": 10,
-        "low_c": 8
+        "icon": "☁",
+        "description": "Overcast",
+        "high_c": 16,
+        "low_c": 7
       },
       {
         "date": "2026-10-14",
         "day_name": "Wed",
-        "icon": "🌦",
-        "description": "Light Drizzle",
-        "high_c": 13,
-        "low_c": 7
+        "icon": "🌧",
+        "description": "Rain",
+        "high_c": 12,
+        "low_c": 9
+      },
+      {
+        "date": "2026-10-15",
+        "day_name": "Thu",
+        "icon": "☁",
+        "description": "Overcast",
+        "high_c": 17,
+        "low_c": 8
       }
     ]
   },
-  "generated_at": "2026-10-08T19:32:28Z"
+  "generated_at": "2026-10-09T19:06:47Z"
 }
