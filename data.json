@@ -1,54 +1,46 @@
 {
   "stock": {
     "ticker": "WDAY",
-    "price": 209.76,
-    "change": -0.23,
-    "change_pct": -0.11,
+    "price": 209.99,
+    "change": 0.0,
+    "change_pct": 0.0,
     "open": 209.99,
     "prev_close": 209.99,
-    "updated": "2026-10-23T17:59:09Z"
+    "updated": "2026-10-24T17:02:40Z"
   },
   "weather": {
     "location": "Burnaby, BC",
     "days": [
       {
-        "date": "2026-10-23",
-        "day_name": "Fri",
-        "icon": "☁",
-        "description": "Overcast",
-        "high_c": 12,
-        "low_c": 5
-      },
-      {
         "date": "2026-10-24",
         "day_name": "Sat",
-        "icon": "☁",
-        "description": "Overcast",
-        "high_c": 12,
+        "icon": "🌧",
+        "description": "Rain",
+        "high_c": 8,
         "low_c": 5
       },
       {
         "date": "2026-10-25",
         "day_name": "Sun",
         "icon": "🌧",
-        "description": "Light Rain",
-        "high_c": 13,
+        "description": "Rain",
+        "high_c": 11,
         "low_c": 7
       },
       {
         "date": "2026-10-26",
         "day_name": "Mon",
-        "icon": "☁",
-        "description": "Overcast",
-        "high_c": 14,
-        "low_c": 6
+        "icon": "🌦",
+        "description": "Light Drizzle",
+        "high_c": 12,
+        "low_c": 5
       },
       {
         "date": "2026-10-27",
         "day_name": "Tue",
-        "icon": "🌧",
-        "description": "Light Rain",
-        "high_c": 8,
+        "icon": "🌦",
+        "description": "Light Drizzle",
+        "high_c": 10,
         "low_c": 5
       },
       {
@@ -56,18 +48,26 @@
         "day_name": "Wed",
         "icon": "🌧",
         "description": "Showers",
-        "high_c": 7,
+        "high_c": 8,
         "low_c": 6
       },
       {
         "date": "2026-10-29",
         "day_name": "Thu",
+        "icon": "🌧",
+        "description": "Rain",
+        "high_c": 6,
+        "low_c": 5
+      },
+      {
+        "date": "2026-10-30",
+        "day_name": "Fri",
         "icon": "🌦",
         "description": "Light Drizzle",
-        "high_c": 8,
-        "low_c": 4
+        "high_c": 7,
+        "low_c": 5
       }
     ]
   },
-  "generated_at": "2026-10-23T17:59:09Z"
+  "generated_at": "2026-10-24T17:02:41Z"
 }
