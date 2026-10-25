@@ -6,68 +6,68 @@
     "change_pct": 0.0,
     "open": 209.99,
     "prev_close": 209.99,
-    "updated": "2026-10-24T17:02:40Z"
+    "updated": "2026-10-25T17:17:07Z"
   },
   "weather": {
     "location": "Burnaby, BC",
     "days": [
       {
-        "date": "2026-10-24",
-        "day_name": "Sat",
-        "icon": "🌧",
-        "description": "Rain",
-        "high_c": 8,
-        "low_c": 5
-      },
-      {
         "date": "2026-10-25",
         "day_name": "Sun",
         "icon": "🌧",
         "description": "Rain",
-        "high_c": 11,
-        "low_c": 7
+        "high_c": 10,
+        "low_c": 6
       },
       {
         "date": "2026-10-26",
         "day_name": "Mon",
         "icon": "🌦",
-        "description": "Light Drizzle",
+        "description": "Drizzle",
         "high_c": 12,
-        "low_c": 5
+        "low_c": 7
       },
       {
         "date": "2026-10-27",
         "day_name": "Tue",
         "icon": "🌦",
-        "description": "Light Drizzle",
-        "high_c": 10,
-        "low_c": 5
+        "description": "Heavy Drizzle",
+        "high_c": 11,
+        "low_c": 6
       },
       {
         "date": "2026-10-28",
         "day_name": "Wed",
-        "icon": "🌧",
-        "description": "Showers",
-        "high_c": 8,
+        "icon": "🌦",
+        "description": "Drizzle",
+        "high_c": 9,
         "low_c": 6
       },
       {
         "date": "2026-10-29",
         "day_name": "Thu",
-        "icon": "🌧",
-        "description": "Rain",
-        "high_c": 6,
-        "low_c": 5
+        "icon": "☁",
+        "description": "Overcast",
+        "high_c": 11,
+        "low_c": 3
       },
       {
         "date": "2026-10-30",
         "day_name": "Fri",
-        "icon": "🌦",
-        "description": "Light Drizzle",
-        "high_c": 7,
-        "low_c": 5
+        "icon": "☁",
+        "description": "Overcast",
+        "high_c": 10,
+        "low_c": 2
+      },
+      {
+        "date": "2026-10-31",
+        "day_name": "Sat",
+        "icon": "☁",
+        "description": "Overcast",
+        "high_c": 11,
+        "low_c": 4
       }
     ]
   },
-  "generated_at": "2026-10-24T17:02:41Z"
+  "generated_at": "2026-10-25T17:17:07Z"
 }
