@@ -6,68 +6,68 @@
     "change_pct": 1.21,
     "open": 195.46,
     "prev_close": 195.46,
-    "updated": "2026-10-31T17:59:37Z"
+    "updated": "2026-11-01T18:38:37Z"
   },
   "weather": {
     "location": "Burnaby, BC",
     "days": [
       {
-        "date": "2026-10-31",
-        "day_name": "Sat",
-        "icon": "☁",
-        "description": "Overcast",
-        "high_c": 11,
-        "low_c": 4
-      },
-      {
         "date": "2026-11-01",
         "day_name": "Sun",
         "icon": "☁",
         "description": "Overcast",
-        "high_c": 12,
-        "low_c": 4
+        "high_c": 10,
+        "low_c": 2
       },
       {
         "date": "2026-11-02",
         "day_name": "Mon",
         "icon": "☁",
         "description": "Overcast",
-        "high_c": 12,
-        "low_c": 5
+        "high_c": 13,
+        "low_c": 3
       },
       {
         "date": "2026-11-03",
         "day_name": "Tue",
         "icon": "🌦",
-        "description": "Light Drizzle",
-        "high_c": 9,
-        "low_c": 7
+        "description": "Drizzle",
+        "high_c": 12,
+        "low_c": 8
       },
       {
         "date": "2026-11-04",
         "day_name": "Wed",
         "icon": "🌧",
-        "description": "Showers",
+        "description": "Light Rain",
         "high_c": 11,
-        "low_c": 8
+        "low_c": 6
       },
       {
         "date": "2026-11-05",
         "day_name": "Thu",
         "icon": "🌧",
         "description": "Showers",
-        "high_c": 12,
+        "high_c": 13,
         "low_c": 8
       },
       {
         "date": "2026-11-06",
         "day_name": "Fri",
+        "icon": "🌦",
+        "description": "Drizzle",
+        "high_c": 12,
+        "low_c": 6
+      },
+      {
+        "date": "2026-11-07",
+        "day_name": "Sat",
         "icon": "🌧",
         "description": "Showers",
-        "high_c": 10,
-        "low_c": 6
+        "high_c": 12,
+        "low_c": 8
       }
     ]
   },
-  "generated_at": "2026-10-31T17:59:37Z"
+  "generated_at": "2026-11-01T18:38:37Z"
 }
