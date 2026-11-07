@@ -1,62 +1,54 @@
 {
   "stock": {
     "ticker": "WDAY",
-    "price": 194.41,
-    "change": -5.76,
-    "change_pct": -2.88,
+    "price": 192.9,
+    "change": -7.27,
+    "change_pct": -3.63,
     "open": 200.17,
     "prev_close": 200.17,
-    "updated": "2026-11-06T20:07:32Z"
+    "updated": "2026-11-07T18:22:04Z"
   },
   "weather": {
     "location": "Burnaby, BC",
     "days": [
       {
-        "date": "2026-11-06",
-        "day_name": "Fri",
-        "icon": "🌧",
-        "description": "Rain",
-        "high_c": 11,
-        "low_c": 8
-      },
-      {
         "date": "2026-11-07",
         "day_name": "Sat",
         "icon": "🌧",
         "description": "Rain",
-        "high_c": 13,
-        "low_c": 7
+        "high_c": 14,
+        "low_c": 8
       },
       {
         "date": "2026-11-08",
         "day_name": "Sun",
         "icon": "🌧",
-        "description": "Showers",
-        "high_c": 12,
-        "low_c": 6
+        "description": "Rain",
+        "high_c": 10,
+        "low_c": 5
       },
       {
         "date": "2026-11-09",
         "day_name": "Mon",
-        "icon": "☁",
-        "description": "Overcast",
-        "high_c": 10,
-        "low_c": 6
+        "icon": "🌧",
+        "description": "Light Rain",
+        "high_c": 12,
+        "low_c": 4
       },
       {
         "date": "2026-11-10",
         "day_name": "Tue",
         "icon": "🌧",
-        "description": "Light Rain",
+        "description": "Rain",
         "high_c": 11,
         "low_c": 8
       },
       {
         "date": "2026-11-11",
         "day_name": "Wed",
-        "icon": "🌦",
-        "description": "Light Drizzle",
-        "high_c": 15,
+        "icon": "🌧",
+        "description": "Rain",
+        "high_c": 17,
         "low_c": 11
       },
       {
@@ -66,8 +58,16 @@
         "description": "Overcast",
         "high_c": 14,
         "low_c": 10
+      },
+      {
+        "date": "2026-11-13",
+        "day_name": "Fri",
+        "icon": "🌧",
+        "description": "Showers",
+        "high_c": 13,
+        "low_c": 10
       }
     ]
   },
-  "generated_at": "2026-11-06T20:07:33Z"
+  "generated_at": "2026-11-07T18:22:05Z"
 }
