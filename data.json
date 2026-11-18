@@ -1,39 +1,31 @@
 {
   "stock": {
     "ticker": "WDAY",
-    "price": 182.8,
-    "change": -11.26,
-    "change_pct": -5.8,
-    "open": 194.06,
-    "prev_close": 194.06,
-    "updated": "2026-11-17T21:56:16Z"
+    "price": 177.45,
+    "change": -5.35,
+    "change_pct": -2.93,
+    "open": 182.8,
+    "prev_close": 182.8,
+    "updated": "2026-11-18T21:38:33Z"
   },
   "weather": {
     "location": "Burnaby, BC",
     "days": [
       {
-        "date": "2026-11-17",
-        "day_name": "Tue",
-        "icon": "☁",
-        "description": "Overcast",
-        "high_c": 9,
-        "low_c": 4
-      },
-      {
         "date": "2026-11-18",
         "day_name": "Wed",
         "icon": "☁",
         "description": "Overcast",
-        "high_c": 12,
-        "low_c": 4
+        "high_c": 9,
+        "low_c": 1
       },
       {
         "date": "2026-11-19",
         "day_name": "Thu",
         "icon": "☁",
         "description": "Overcast",
-        "high_c": 9,
-        "low_c": 3
+        "high_c": 10,
+        "low_c": 4
       },
       {
         "date": "2026-11-20",
@@ -46,28 +38,36 @@
       {
         "date": "2026-11-21",
         "day_name": "Sat",
-        "icon": "🌧",
-        "description": "Rain",
+        "icon": "☁",
+        "description": "Overcast",
         "high_c": 9,
         "low_c": 3
       },
       {
         "date": "2026-11-22",
         "day_name": "Sun",
-        "icon": "🌧",
-        "description": "Rain",
-        "high_c": 6,
-        "low_c": 3
+        "icon": "☁",
+        "description": "Overcast",
+        "high_c": 7,
+        "low_c": 4
       },
       {
         "date": "2026-11-23",
         "day_name": "Mon",
         "icon": "🌦",
         "description": "Light Drizzle",
-        "high_c": 8,
-        "low_c": 3
+        "high_c": 9,
+        "low_c": 4
+      },
+      {
+        "date": "2026-11-24",
+        "day_name": "Tue",
+        "icon": "☁",
+        "description": "Overcast",
+        "high_c": 10,
+        "low_c": 4
       }
     ]
   },
-  "generated_at": "2026-11-17T21:56:17Z"
+  "generated_at": "2026-11-18T21:38:33Z"
 }
