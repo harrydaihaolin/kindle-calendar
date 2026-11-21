@@ -6,68 +6,68 @@
     "change_pct": 0.67,
     "open": 173.36,
     "prev_close": 173.36,
-    "updated": "2026-11-20T21:35:17Z"
+    "updated": "2026-11-21T20:16:15Z"
   },
   "weather": {
     "location": "Burnaby, BC",
     "days": [
       {
-        "date": "2026-11-20",
-        "day_name": "Fri",
-        "icon": "☁",
-        "description": "Overcast",
-        "high_c": 6,
-        "low_c": 0
-      },
-      {
         "date": "2026-11-21",
         "day_name": "Sat",
-        "icon": "🌦",
-        "description": "Drizzle",
-        "high_c": 9,
+        "icon": "🌧",
+        "description": "Light Rain",
+        "high_c": 8,
         "low_c": 1
       },
       {
         "date": "2026-11-22",
         "day_name": "Sun",
-        "icon": "🌦",
-        "description": "Light Drizzle",
-        "high_c": 9,
+        "icon": "🌧",
+        "description": "Light Rain",
+        "high_c": 6,
         "low_c": 4
       },
       {
         "date": "2026-11-23",
         "day_name": "Mon",
-        "icon": "☁",
-        "description": "Overcast",
-        "high_c": 9,
-        "low_c": 2
+        "icon": "🌧",
+        "description": "Rain",
+        "high_c": 6,
+        "low_c": 4
       },
       {
         "date": "2026-11-24",
         "day_name": "Tue",
         "icon": "🌧",
-        "description": "Light Rain",
-        "high_c": 7,
-        "low_c": 5
+        "description": "Rain",
+        "high_c": 8,
+        "low_c": 6
       },
       {
         "date": "2026-11-25",
         "day_name": "Wed",
         "icon": "🌧",
-        "description": "Light Rain",
-        "high_c": 9,
-        "low_c": 7
+        "description": "Rain",
+        "high_c": 10,
+        "low_c": 8
       },
       {
         "date": "2026-11-26",
         "day_name": "Thu",
         "icon": "🌧",
-        "description": "Light Rain",
-        "high_c": 9,
+        "description": "Rain",
+        "high_c": 10,
         "low_c": 8
+      },
+      {
+        "date": "2026-11-27",
+        "day_name": "Fri",
+        "icon": "🌧",
+        "description": "Rain",
+        "high_c": 11,
+        "low_c": 7
       }
     ]
   },
-  "generated_at": "2026-11-20T21:35:17Z"
+  "generated_at": "2026-11-21T20:16:15Z"
 }
